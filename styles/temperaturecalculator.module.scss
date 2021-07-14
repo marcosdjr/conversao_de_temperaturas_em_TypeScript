@@ -1,0 +1,47 @@
+.calculator_area {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    p {
+        color: red;
+        font-size: 1rem;
+        font-weight: bold;
+    
+    }
+
+        .textfield {
+            width: 40vmax;
+            padding: 0.5rem;
+            :hover {
+                color: red;
+                background-color:rgb(149, 209, 231);
+
+            }
+        }
+    
+}
+
+.body_element {
+    width: 40vmax;
+    padding: 1rem;
+}
+
+.tempcard {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   margin-bottom: 1rem;
+   
+   
+}
